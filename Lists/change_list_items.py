@@ -22,3 +22,11 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[1:3] = ["watermelon"]
 print(thislist)
+
+# To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+# The insert() method inserts an item at the specified index:
+
+# Insert "watermelon" as the third item:
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
