@@ -24,6 +24,7 @@ thistuple = ("apple", "banana", "cherry")
 y = list(thistuple)
 y.append("orange")
 thistuple = tuple(y)
+print(thistuple)
 
 '''
 2. Add tuple to a tuple. You are allowed to add tuples to tuples, so if you want to add one item, (or many), 
@@ -43,3 +44,4 @@ thistuple = ("apple", "banana", "cherry")
 y = list(thistuple)
 y.remove("apple")
 thistuple = tuple(y)
+print(thistuple)
